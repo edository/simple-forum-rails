@@ -20,7 +20,7 @@
         </div>
 
         <div class="action">
-          <a href="#" class="btn btn-primary"> Pin It!</a>
+          <!-- <a href="#" class="btn btn-primary"> Pin It!</a> -->
           <%= link_to 'Pin It', pinit_forum_thread_path(t), class: 'btn', method: :put %>
         </div>
 
@@ -31,5 +31,7 @@
         <div style="clear: both"></div>
       </div>
     <% end %>
+
+    <%= will_paginate @threads, renderer: BootstrapPagination:: Rails %>
   </div>
 </div>

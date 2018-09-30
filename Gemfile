@@ -21,6 +21,8 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'pundit'
 gem 'friendly_id'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
